@@ -1,0 +1,248 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Estilos para el header*/
+
+header nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 98vw;
+    height: 40px;
+    font-size: 12px;
+    padding: 0px 16px;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(39, 46, 54);
+}
+
+header nav img#icon-page
+{
+    width: 150px;
+    height: 25px;
+    padding: 4px;
+}
+
+.lista
+{
+    display: flex;
+}
+
+.lista a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.lista li
+{
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.presentacion {
+    background-color: rgb(39, 46, 54);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.presentacion .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.presentacion .text p {
+    font-size: 36px;
+    color: white;
+    margin-left: 60px;
+}
+
+.presentacion .image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex: 1;
+    padding: 0;
+    margin-right: 60px;
+}
+
+.presentacion .image img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 0;
+}
+
+
+.about {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 38px;
+    margin-bottom: 1.5rem;
+}
+
+.about p {
+    font-size: 20px;
+    margin-bottom: 2rem;
+    max-width: 900px; 
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.about button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contenedor_imagenes {
+    display: flex;
+    height: 100vh;
+}
+
+.img-1 {
+    flex: 1;
+    width: 50%;
+    object-fit: cover;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-2, .img-3 {
+    flex: 1;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.contenedor_services {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+  .cont_responsive, .cont_seo, .cont_unique_design {
+    padding: 30px;
+    width: 900px;
+    margin: 100px 30px 50px 30px;
+    text-align: center;
+}
+
+.contenedor_services img {
+    width: 60px;
+}
+
+.contenedor_services h2 {
+    padding: 0 0 2rem 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.contenedor_services p {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.projects {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.projects img {
+    width: 60px;
+}
+
+.projects h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 38px;
+    margin-bottom: 1.5rem;
+}
+
+.projects p {
+    font-size: 20px;
+    margin-bottom: 2rem;
+    max-width: 900px; 
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.projects button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contenedor_contact {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+  .cont_project, .cont_contact, .cont_studio {
+    padding: 30px;
+    width: 900px;
+    text-align: center;
+}
+
+.contenedor_contact img {
+    width: 30px;
+}
+
+.contenedor_contact h5 {
+    padding: 0 0 0.5rem 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+.contenedor_contact p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 14px;
+    padding: 0.5rem;
+}
+
+.end {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 1rem;
+}
